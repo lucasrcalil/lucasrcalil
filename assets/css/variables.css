@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #0f0f0f;
+  --secondary-color: #1e1b1e;
+  --third-color: #272427;
+  --border-color: #3a3a3a;
+  --ciano: #10e0b4;
+  --orange: #ff9a3d;
+  --magenta: #ff3c77;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #8b8b8b;
+  --accent-text-color: #ff3c77;
+  --linkedin: #007bd1;
+  --behance: #053eef;
+  --dribbble: #ea4c89;
+  --github: #000000;
+
+  /* --primary-color: #effbff;
+  --secondary-color: #ffffff;
+  --third-color: #eaf1fb;
+  --border-color: #3a3a3a;
+  --ciano: #10e0b4;
+  --orange: #ff9a3d;
+  --magenta: #ff3c77;
+  --primary-text-color: #1a1a1a;
+  --secondary-text-color: #8b8b8b;
+  --accent-text-color: #ff3c77;
+  --linkedin: #007bd1;
+  --behance: #053eef;
+  --dribbble: #ea4c89;
+  --github: #000000; */
+}
