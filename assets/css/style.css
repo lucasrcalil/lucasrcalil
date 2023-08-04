@@ -7,6 +7,11 @@ body {
   color: var(--primary-text-color);
 }
 
+a {
+  text-decoration: none;
+  width: 25% !important;
+}
+
 h1 {
   margin: 20px;
   font-weight: 900;
@@ -82,9 +87,78 @@ h5 {
 }
 
 .port-thumb {
+  display: flex;
+  align-items: flex-end;
   height: 230px;
   background-clip: content-box;
   border-radius: 15px;
+}
+
+.text-label {
+  height: 55%;
+  width: 100%;
+  background-color: #00000060;
+  border-radius: 20px 20px 0px 0px;
+  backdrop-filter: blur(16px);
+  border-top: 1px solid #ffffff70;
+  transition: 200ms;
+}
+
+.text-label h2 {
+  font-size: 18px;
+}
+
+.text-label p {
+  font-weight: 200;
+  font-size: 15px;
+  transition: 200ms;
+}
+
+.inner-label-container {
+  margin: 20px 10px;
+}
+
+.port-thumb:hover .text-label {
+  height: 100%;
+  border-radius: 0px;
+  border-top: 0px;
+  transition: 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.port-button {
+  background-color: var(--magenta);
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 200;
+  opacity: 0;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.port-button:hover {
+  box-shadow: 0px 0px 10px 0px var(--magenta);
+  transition: 200ms;
+  height: 35px;
+  width: 110px;
+}
+
+.port-thumb:hover .inner-label-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.port-thumb:hover .port-button {
+  opacity: 1;
 }
 
 .thumb-1 {
@@ -200,6 +274,14 @@ h5 {
   display: flex;
   align-items: center;
   font-size: 25px;
+}
+
+.social a {
+  color: var(--secondary-text-color);
+}
+
+.social-elipse:hover .social a {
+  color: var(--primary-text-color);
 }
 
 .linkedin:hover {
