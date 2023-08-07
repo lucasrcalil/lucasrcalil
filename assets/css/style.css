@@ -40,6 +40,17 @@ h5 {
   cursor: pointer;
 }
 
+.text-button a {
+  color: var(--magenta);
+  transition: 100ms;
+}
+
+.text-button a:hover {
+  font-size: 19px;
+  font-weight: 600;
+  transition: 100ms;
+}
+
 .accent-color {
   color: var(--accent-text-color);
 }
@@ -184,6 +195,11 @@ h5 {
   margin: 0px 20px 0px 20px;
 }
 
+.gallery a {
+  width: 100%;
+  color: var(--primary-text-color);
+}
+
 .ciano {
   background-color: var(--ciano);
 }
@@ -280,24 +296,32 @@ h5 {
   color: var(--secondary-text-color);
 }
 
-.social-elipse:hover .social a {
+.social a:hover {
   color: var(--primary-text-color);
 }
 
 .linkedin:hover {
   background-color: var(--linkedin);
+  font-size: 27px;
+  transition: ease-in-out 200ms;
 }
 
 .behance:hover {
   background-color: var(--behance);
+  font-size: 27px;
+  transition: ease-in-out 200ms;
 }
 
 .dribbble:hover {
   background-color: var(--dribbble);
+  font-size: 27px;
+  transition: ease-in-out 200ms;
 }
 
 .github:hover {
   background-color: var(--github);
+  font-size: 27px;
+  transition: ease-in-out 200ms;
 }
 
 .session-title {
@@ -476,4 +500,9 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#about p {
+  font-weight: 200;
+  line-height: 170%;
 }
