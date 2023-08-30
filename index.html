@@ -28,6 +28,26 @@
     <!-- CSS -->
   </head>
   <body>
+    <div class="cursor"></div>
+    <!-- Header -->
+    <div class="container">
+      <div class="row">
+        <nav class="col header">
+            <div class="col-5 left-menu">
+              <a href="#"><p>Apresentação</p></a>
+              <a href="#skills"><p>Skills</p></a>
+            </div>
+            <div class="col-2 logo">
+              <img src="assets/img/logo.png" alt="">
+            </div>
+            <div class="col-5 right-menu">
+              <a href="#resume"><p class="first-menu">Currículo</p></a>
+              <a href="#contact"><p>Contato</p></a>
+            </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Header -->
     <div class="container-xxl">
       <div class="row">
         <!-- Coluna da esquerda -->
@@ -104,9 +124,6 @@
                     <div class="col-8 name">
                         <span class="accent-color">Lucas</span> Ramos Calil
                     </div>
-                    <div class="col menu">
-                        <i class="ph ph-list"></i>
-                    </div>
               </div> 
             </div>
             <div class="row gx-0">
@@ -163,7 +180,7 @@
                 <div class="col box xbig">
                   <div class="inner-container">
                     <h2>Sobre</h2>
-                    <div class="col" id="about">
+                    <div class="col" id="about-text">
                       <p>Trabalho como Web Designer e tenho uma paixão por criar experiências digitais envolventes e visualmente atraentes. Sou um entusiasta de jogos, apaixonado por novas tecnologias e sempre em busca das últimas tendências de design para aprimorar minhas habilidades e conhecimentos.<br>
                       Minha trajetória em todas as áreas do design, tanto gráfico quanto digital, permitiu que eu encontrasse diversas soluções visuais para os projetos em que participei ao longo desses 3 anos de carreira. Desde o início desta jornada, trago comigo a filosofia de que um design não precisa abrir mão da beleza para funcionar, e nem abrir mão da funcionalidade para ser bonito.
                       </p>
@@ -176,7 +193,7 @@
     </div>
     <!-- Coluna da direita -->
     <!-- Skills -->
-    <div class="row gy-5"> 
+    <div class="row gy-5" id="skills"> 
       <div class="col-12 session-title"> <!-- Título da sessão -->
         <h2 id="outline">Ferramentas e Skills</h2>
         <h2>Ferramentas e Skills</h2>
@@ -285,8 +302,7 @@
       <div class="col skill-align">
         <div class="clip-shape">
           <div class="hover-div">
-            <div class="skill-icon">
-              <i class="bi bi-playstation"></i>
+            <div class="skill-icon premiere">
             </div>
             <div class="shape">
               <div class="inner-shape">
@@ -302,8 +318,8 @@
       <div class="col skill-align">
         <div class="clip-shape">
           <div class="hover-div">
-            <div class="skill-icon">
-              <i class="bi bi-playstation"></i>
+            <div class="skill-icon design-thinking">
+
             </div>
             <div class="shape">
               <div class="inner-shape">
@@ -319,8 +335,7 @@
       <div class="col skill-align">
         <div class="clip-shape">
           <div class="hover-div">
-            <div class="skill-icon">
-              <i class="bi bi-playstation"></i>
+            <div class="skill-icon prototype">
             </div>
             <div class="shape">
               <div class="inner-shape">
@@ -334,9 +349,65 @@
       </div>
     </div>
     <!-- Skills -->
-    <!-- Limite caracteres -->
-    <script src="assets/js/limit.js"></script>
-    <!-- Limite caracteres -->
+    <div class="row gy-6"> 
+      <div class="col-12 session-title"> <!-- Título da sessão -->
+        <h2 id="outline">Currículo</h2>
+        <h2>Currículo</h2>
+      </div>
+      <div class="container gy-5" id="resume">
+        <div class="row gy-5">
+          <div class="offset-2 col-8 box xbig resume-box">
+            <div class="inner-container">
+              <div class="row resume-container">
+                <div class="resume-icon"><img src="assets/img/resume.png" alt=""></div>
+                <div class="resume-text">
+                  <h2>Prefere à moda antiga?</h2>
+                  <div class="col" id="about-text">
+                    <p>Clique no botão abaixo e tenha acesso ao meu currículo.</p>
+                    <a href="assets/img/resume.pdf" target="_blank">
+                      <div class="resume-button">
+                        Ver currículo 
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row gy-6" id="contact"> 
+      <div class="col-12 session-title"> <!-- Título da sessão -->
+        <h2 id="outline">Contato e Redes</h2>
+        <h2>Contato e Redes</h2>
+      </div>
+    </div>
+    <div class="gy-3">
+      <div class="col" id="contact-text">
+        <p>Entre em contato via email ou acesse as minhas redes para saber mais.</p>
+      </div>
+        <div class="col gy-3 social contact"> <!-- Redes -->
+          <div class="row gx-4 social contact">
+                  <a href="mailto:lucasrcalil@gmail.com" target="_blank"><div class="social-elipse contact github"><i class="bi bi-envelope-at-fill"></i></div></a>
+                  <a href="https://www.linkedin.com/in/lucasrcalil/" target="_blank"><div class="social-elipse contact linkedin"><i class="bi bi-linkedin"></i></div></a>
+                  <a href="https://www.behance.net/lucasrcalil" target="_blank"><div class="social-elipse contact behance"><i class="bi bi-behance"></i></div></a>
+                  <a href="https://dribbble.com/lucasrcalil" target="_blank"><div class="social-elipse contact dribbble"><i class="bi bi-dribbble"></i></div></a>
+          </div>
+        </div>
+    </div>
+    <div class="row gy-6">
+      <div class="footer">
+        <div class="footer-logo"><img src="assets/img/logo.png" alt=""></div>
+        <div class="footer-name"><p>Lucas Ramos Calil</p></div>
+        <div class="footer-disclaimer">
+          <p>© Copyright <span id="year-result">----</span> - Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Ano atual -->
+    <script src="assets/js/current-year.js"></script>
+    <!-- Ano atual -->
 
     <!-- Phosphoricons -->
     <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
