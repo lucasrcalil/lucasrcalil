@@ -14,8 +14,7 @@
       font-size: 16px;
     }
     .container {
-      max-width: 600px;
-      width: 100%;
+      max-width: 600px !important;
       background-color: #ffffff;
       height: 150px;
       position: relative;
@@ -46,53 +45,57 @@
   </style>
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <body>
-    <div class="container">
-      <table>
-        <tr>
-          <td
-            style="
-              text-align: center;
-              vertical-align: middle;
-              width: fit-content;
-            "
+    <table
+      class="container"
+      style="
+        max-width: 600px !important;
+        background-color: #ffffff;
+        height: 150px;
+        position: relative;
+      "
+    >
+      <tr>
+        <td
+          style="text-align: center; vertical-align: middle; width: fit-content"
+        >
+          <img
+            src="https://lucasrcalil.vercel.app/signature/img/pic.png"
+            alt=""
+            style="max-width: 77px"
+          /><br />
+          <img
+            src="https://lucasrcalil.vercel.app/signature/img/logo.png"
+            alt=""
+            style="max-width: 35px"
+          />
+        </td>
+        <td>
+          <span
+            class="name"
+            style="font-weight: 900; color: #ff3c77; font-size: 22px"
+            >Lucas Ramos Calil</span
           >
-            <img
-              src="https://lucasrcalil.vercel.app/signature/img/pic.png"
-              alt=""
-              style="max-width: 77px"
-            /><br />
-            <img
-              src="https://lucasrcalil.vercel.app/signature/img/logo.png"
-              alt=""
-              style="max-width: 35px"
-            />
-          </td>
-          <td>
-            <span
-              class="name"
-              style="font-weight: 900; color: #ff3c77; font-size: 22px"
-              >Lucas Ramos Calil</span
-            >
-            <span class="separator">|</span> WEB & UI DESIGNER<br />
-            <a href="tel:+5511986663014" target="_blank"
-              ><i class="ph-duotone ph-phone"></i>(11) 98666-3014<br
-            /></a>
-            <a href="mailto:lucasrcalil@lrcdesign.com" target="_blank"
-              ><i class="ph-duotone ph-envelope-open"></i
-              >lucasrcalil@lrcdesign.com<br
-            /></a>
-            <a href="https://www.lrcdesign.com" target="_blank"
-              ><i class="ph-duotone ph-globe"></i>www.lrcdesign.com</a
-            >
-          </td>
-        </tr>
-      </table>
-      <img
-        src="https://lucasrcalil.vercel.app/signature/img/bg.png"
-        alt=""
-        class="bg"
-        style="max-width: 249px"
-      />
-    </div>
+          <span class="separator">|</span> WEB & UI DESIGNER<br />
+          <a href="tel:+5511986663014" target="_blank"
+            ><i class="ph-duotone ph-phone"></i>(11) 98666-3014<br
+          /></a>
+          <a href="mailto:lucasrcalil@lrcdesign.com" target="_blank"
+            ><i class="ph-duotone ph-envelope-open"></i
+            >lucasrcalil@lrcdesign.com<br
+          /></a>
+          <a href="https://www.lrcdesign.com" target="_blank"
+            ><i class="ph-duotone ph-globe"></i>www.lrcdesign.com</a
+          >
+        </td>
+      </tr>
+      <td>
+        <img
+          src="https://lucasrcalil.vercel.app/signature/img/bg.png"
+          alt=""
+          class="bg"
+          style="max-width: 249px"
+        />
+      </td>
+    </table>
   </body>
 </html>
